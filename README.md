@@ -39,3 +39,13 @@ Frontend apps running in port 3002:
 http://localhost:3002/login
 ```
 
+### Coverage unit test
+Frontend apps unit test coverage:
+
+![Frontend unit test coveragw](fe.png)
+
+
+Backend apps unit test coverage:
+
+![Backend unit test coveragw](be.png)
+
