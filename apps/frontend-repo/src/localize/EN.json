@@ -1,0 +1,11 @@
+{
+    "INTERNAL_ERROR": "Something error, please try again later.",
+    "ERROR_ROUTE_NOT_FOUND": "Ups.. route not found",
+    "EDIT_PROFILE_TITLE": "Edit Profile",
+    "FETCH_USER_DATA": "Fetch user data",
+    "EDIT_USER_DATA": "Edit user data",
+    "UPDATE_USER_DATA": "Update user data",
+    "CANCEL": "Cancel",
+    "LOGOUT": "Logout",
+    "LOGIN_WITH_GOOGLE": "Login with Google"
+}

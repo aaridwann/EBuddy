@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\store\Actions\Authentication\AuthenticationActions.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\store\Actions\Authentication\AuthenticationActions.test.tsx" hostname="localhost" tests="6" failures="0" time="6.002" timestamp="2025-02-11T16:49:31">
+    <properties>
+    </properties>
+    <testcase classname="loginUser" name="should login user successfully" time="0">
+    </testcase>
+    <testcase classname="loginUser" name="should return error on login failure" time="0">
+    </testcase>
+    <testcase classname="loginUserWithGoogle" name="should login with Google and create user if new" time="0">
+    </testcase>
+    <testcase classname="loginUserWithGoogle" name="should return error on Google login failure" time="0">
+    </testcase>
+    <testcase classname="logoutUser" name="should logout successfully" time="0">
+    </testcase>
+    <testcase classname="logoutUser" name="should return error on logout failure" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\store\Reducers\Authentication\AuthenticationReducer.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\store\Reducers\Authentication\AuthenticationReducer.test.tsx" hostname="localhost" tests="10" failures="0" time="7.776" timestamp="2025-02-11T16:49:31">
+    <properties>
+    </properties>
+    <testcase classname="authSlice reducer" name="should handle loginUser.pending" time="0">
+    </testcase>
+    <testcase classname="authSlice reducer" name="should handle loginUser.fulfilled" time="0">
+    </testcase>
+    <testcase classname="authSlice reducer" name="should handle loginUser.rejected" time="0">
+    </testcase>
+    <testcase classname="authSlice reducer" name="should handle loginUserWithGoogle.pending" time="0">
+    </testcase>
+    <testcase classname="authSlice reducer" name="should handle loginUserWithGoogle.fulfilled" time="0">
+    </testcase>
+    <testcase classname="authSlice reducer" name="should handle loginUserWithGoogle.rejected" time="0">
+    </testcase>
+    <testcase classname="authSlice reducer" name="should handle logoutUser.pending" time="0">
+    </testcase>
+    <testcase classname="authSlice reducer" name="should handle logoutUser.fulfilled" time="0">
+    </testcase>
+    <testcase classname="authSlice reducer" name="should handle logoutUser.rejected" time="0">
+    </testcase>
+    <testcase classname="authSlice reducer" name="should handle updateUser.fulfilled" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\apis\userApi.test.ts" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\apis\userApi.test.ts" hostname="localhost" tests="6" failures="0" time="0.771" timestamp="2025-02-11T16:49:39">
+    <properties>
+    </properties>
+    <testcase classname="User API functions" name="should fetch user data successfully" time="0">
+    </testcase>
+    <testcase classname="User API functions" name="should handle error when fetching user data" time="0">
+    </testcase>
+    <testcase classname="User API functions" name="should update user data successfully" time="0">
+    </testcase>
+    <testcase classname="User API functions" name="should handle error when updating user data" time="0">
+    </testcase>
+    <testcase classname="User API functions" name="should create new user successfully" time="0">
+    </testcase>
+    <testcase classname="User API functions" name="should handle error when creating a new user" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\store\Reducers\Users\UsersReducers.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\store\Reducers\Users\UsersReducers.test.tsx" hostname="localhost" tests="7" failures="0" time="0.743" timestamp="2025-02-11T16:49:39">
+    <properties>
+    </properties>
+    <testcase classname="userSlice reducer" name="should handle fetchUser.pending" time="0">
+    </testcase>
+    <testcase classname="userSlice reducer" name="should handle fetchUser.fulfilled" time="0">
+    </testcase>
+    <testcase classname="userSlice reducer" name="should handle fetchUser.rejected" time="0">
+    </testcase>
+    <testcase classname="userSlice reducer" name="should handle updateUser.pending" time="0">
+    </testcase>
+    <testcase classname="userSlice reducer" name="should handle updateUser.fulfilled" time="0">
+    </testcase>
+    <testcase classname="userSlice reducer" name="should handle updateUser.rejected" time="0">
+    </testcase>
+    <testcase classname="userSlice reducer" name="should reset user state on loginUserWithGoogle.fulfilled" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="4" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\store\Actions\Users\UsersActions.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\store\Actions\Users\UsersActions.test.tsx" hostname="localhost" tests="4" failures="0" time="0.523" timestamp="2025-02-11T16:49:40">
+    <properties>
+    </properties>
+    <testcase classname="fetchUser" name="should fetch user successfully" time="0">
+    </testcase>
+    <testcase classname="fetchUser" name="should return error on fetch failure" time="0">
+    </testcase>
+    <testcase classname="updateUser" name="should update user successfully" time="0">
+    </testcase>
+    <testcase classname="updateUser" name="should return error on update failure" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="5" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\screens\Login\LoginComponent.snap.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\screens\Login\LoginComponent.snap.test.tsx" hostname="localhost" tests="4" failures="0" time="9.208" timestamp="2025-02-11T16:49:41">
+    <properties>
+    </properties>
+    <testcase classname="Login component snapshot testing" name="should render when each value of props is null" time="0">
+    </testcase>
+    <testcase classname="Login component snapshot testing" name="should render when each value of props is not null" time="0">
+    </testcase>
+    <testcase classname="Login component snapshot testing" name="should render when error is true" time="0">
+    </testcase>
+    <testcase classname="Login component snapshot testing" name="should render when loading is true" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="6" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\screens\Login\LoginComponent.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\screens\Login\LoginComponent.test.tsx" hostname="localhost" tests="5" failures="0" time="13.978" timestamp="2025-02-11T16:49:37">
+    <properties>
+    </properties>
+    <testcase classname="LoginPage Component" name="should render login form correctly" time="0">
+    </testcase>
+    <testcase classname="LoginPage Component" name="should handle input change" time="0">
+    </testcase>
+    <testcase classname="LoginPage Component" name="should handle email/password login successfully" time="0">
+    </testcase>
+    <testcase classname="LoginPage Component" name="should display error when email/password login fails" time="0">
+    </testcase>
+    <testcase classname="LoginPage Component" name="should handle Google login successfully" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="7" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\screens\Root\RootScreenComponent.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\screens\Root\RootScreenComponent.test.tsx" hostname="localhost" tests="5" failures="0" time="20.35" timestamp="2025-02-11T16:49:31">
+    <properties>
+    </properties>
+    <testcase classname="UserProfile Component" name="should edit" time="0">
+    </testcase>
+    <testcase classname="UserProfile Component" name="should correct flow of logout" time="0">
+    </testcase>
+    <testcase classname="UserProfile Component" name="should correct flow fetch user data" time="0">
+    </testcase>
+    <testcase classname="_updateHandler" name="should be return when no have a token" time="0">
+    </testcase>
+    <testcase classname="_updateHandler" name="should call props fetch user when have a token" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="8" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\services\Axios\Axios.test.ts" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\services\Axios\Axios.test.ts" hostname="localhost" tests="3" failures="0" time="0.647" timestamp="2025-02-11T16:49:51">
+    <properties>
+    </properties>
+    <testcase classname="AppAxios" name="should add Authorization header if user is authenticated" time="0">
+    </testcase>
+    <testcase classname="AppAxios" name="should not add Authorization header if user is not authenticated" time="0">
+    </testcase>
+    <testcase classname="AppAxios" name="should return response if successful" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="9" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\screens\Root\RootScreenComponent.snap.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\screens\Root\RootScreenComponent.snap.test.tsx" hostname="localhost" tests="3" failures="0" time="2.091" timestamp="2025-02-11T16:49:50">
+    <properties>
+    </properties>
+    <testcase classname="RootScreenComponent snapshot testing" name="should render when value of props is null" time="0">
+    </testcase>
+    <testcase classname="RootScreenComponent snapshot testing" name="should render when user is null" time="0">
+    </testcase>
+    <testcase classname="RootScreenComponent snapshot testing" name="should render when value of props is not null" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="10" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\screens\Root\RootScreenContainer.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\screens\Root\RootScreenContainer.test.tsx" hostname="localhost" tests="5" failures="0" time="2.038" timestamp="2025-02-11T16:49:51">
+    <properties>
+    </properties>
+    <testcase classname="MapStateToProp" name="should return correct value" time="0">
+    </testcase>
+    <testcase classname="MapDispatchToProps" name="should return correct method" time="0">
+    </testcase>
+    <testcase classname="MapDispatchToProps" name="should call fetchUser method" time="0">
+    </testcase>
+    <testcase classname="MapDispatchToProps" name="should call updateUser method" time="0">
+    </testcase>
+    <testcase classname="MapDispatchToProps" name="should call logoutUser method" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="11" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\components\Button\Button.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\components\Button\Button.test.tsx" hostname="localhost" tests="4" failures="0" time="2.098" timestamp="2025-02-11T16:49:52">
+    <properties>
+    </properties>
+    <testcase classname="UpdateButton Component" name="should renders button with correct text" time="0">
+    </testcase>
+    <testcase classname="UpdateButton Component" name="should disables button when loading" time="0">
+    </testcase>
+    <testcase classname="UpdateButton Component" name="should calls onClick handler when clicked" time="0">
+    </testcase>
+    <testcase classname="UpdateButton Component" name="should shows error message when error is present" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="12" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\screens\Login\LoginContainer.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\screens\Login\LoginContainer.test.tsx" hostname="localhost" tests="3" failures="0" time="1.64" timestamp="2025-02-11T16:49:52">
+    <properties>
+    </properties>
+    <testcase classname="MapDispatchToProps" name="should return correct key of method" time="0">
+    </testcase>
+    <testcase classname="MapDispatchToProps" name="should call dispatch login google when click" time="0">
+    </testcase>
+    <testcase classname="MapStateToProps" name="should return correct value" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="13" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\app\layout.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\app\layout.test.tsx" hostname="localhost" tests="2" failures="0" time="1.214" timestamp="2025-02-11T16:49:53">
+    <properties>
+    </properties>
+    <testcase classname="RootLayout" name="should render children inside the providers" time="0">
+    </testcase>
+    <testcase classname="RootLayout" name="should wrap children with ThemeProvider, I18nextProvider, and Redux Provider" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="14" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\components\Snackbar\SnackbarComponent.snap.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\components\Snackbar\SnackbarComponent.snap.test.tsx" hostname="localhost" tests="2" failures="0" time="1.072" timestamp="2025-02-11T16:49:54">
+    <properties>
+    </properties>
+    <testcase classname="SnackbarComponent snap testing" name="should render when no message" time="0">
+    </testcase>
+    <testcase classname="SnackbarComponent snap testing" name="should render when no message" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="15" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\components\Button\Button.snap.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\components\Button\Button.snap.test.tsx" hostname="localhost" tests="3" failures="0" time="1.731" timestamp="2025-02-11T16:49:54">
+    <properties>
+    </properties>
+    <testcase classname="Button snapshot testing" name="should render with correct value" time="0">
+    </testcase>
+    <testcase classname="Button snapshot testing" name="should render with error" time="0">
+    </testcase>
+    <testcase classname="Button snapshot testing" name="should render with loading on" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="16" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\theme\theme.test.ts" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\theme\theme.test.ts" hostname="localhost" tests="3" failures="0" time="0.817" timestamp="2025-02-11T16:49:55">
+    <properties>
+    </properties>
+    <testcase classname="MUI Theme Configuration" name="should have the correct primary color" time="0">
+    </testcase>
+    <testcase classname="MUI Theme Configuration" name="should have the correct secondary color" time="0">
+    </testcase>
+    <testcase classname="MUI Theme Configuration" name="should have the correct typography font size" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="17" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\components\Loading\LoadingComponent.snap.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\components\Loading\LoadingComponent.snap.test.tsx" hostname="localhost" tests="3" failures="0" time="1.73" timestamp="2025-02-11T16:49:54">
+    <properties>
+    </properties>
+    <testcase classname="Loading component snapshot testing" name="Should render correct with value size 10" time="0">
+    </testcase>
+    <testcase classname="Loading component snapshot testing" name="Should render correct with value size 60" time="0">
+    </testcase>
+    <testcase classname="Loading component snapshot testing" name="Should render correct with default value" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="18" name="E:\EBuddy\my-monorepo\apps\frontend-repo\src\utils\Utils.test.tsx" errors="0" package="E:\EBuddy\my-monorepo\apps\frontend-repo\src\utils\Utils.test.tsx" hostname="localhost" tests="1" failures="0" time="0.449" timestamp="2025-02-11T16:49:56">
+    <properties>
+    </properties>
+    <testcase classname="getErrorCode" name="should correct extract value" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>

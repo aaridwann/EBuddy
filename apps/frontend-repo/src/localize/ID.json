@@ -1,0 +1,11 @@
+{
+    "INTERNAL_ERROR": "Sistem sedang error, Coba lagi nanti.",
+    "ERROR_ROUTE_NOT_FOUND": "Ups.. rute tidak tersedia",
+    "EDIT_PROFILE_TITLE": "Edit Profile",
+    "FETCH_USER_DATA": "Dapatkan data pengguna",
+    "EDIT_USER_DATA": "Sunting data pengguna",
+    "UPDATE_USER_DATA": "Perbaharui data pengguna",
+    "CANCEL": "Batal",
+    "LOGOUT": "Logout",
+    "LOGIN_WITH_GOOGLE": "Login with Google"
+}
