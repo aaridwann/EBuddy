@@ -1,5 +1,4 @@
 node_modules/
-dist/
 firebase-debug.log
 package-lock.json
 yarn.lock
