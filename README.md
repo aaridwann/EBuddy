@@ -1,84 +1,41 @@
-# Turborepo starter
+# Test Assessment EBuddy - Fullstack by Ridwan Firmansyah
 
-This Turborepo starter is maintained by the Turborepo core team.
+## Tech Stack
+- **Next.js** - A React framework for server-side rendering.
+- **Express.js** - A minimal and flexible web framework for Node.js.
+- **Firebase** - A platform that provides backend services like authentication and Firestore database.
 
-## Using this example
+## Features
+- **Google Login**: Allows users to log in using their Google account.
+- **Fetch User**: Fetches user data from the backend and stores it in Firestore.
+- **Update User**: Allows users to update their information, integrated with the backend and Firestore.
+- **Monorepo Setup**: Fullstack setup within a monorepo, streamlining the management of both frontend and backend code.
+- **Firebase Emulator**: Uses Firebase emulator to test the application locally without affecting the live database.
+- **Redux Store**: Manages application state with Redux.
+- **Unit Test Coverage**: Unit tests to ensure the correctness of each part of the application.
 
-Run the following command:
+## Setup Instructions
 
-```sh
-npx create-turbo@latest
+### 1. Clone the Repository
+Clone this repository to your local machine:
+```bash
+git clone https://github.com/username/repository-name.git
+```
+### 2. Install Dependency
+Install all dependency in root folder monorepo:
+```bash
+yarn
 ```
 
-## What's inside?
-
-This Turborepo includes the following packages/apps:
-
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
+### 3. Running Apps
+Running both of apps frontend and backend in the same time:
+```bash
+yarn dev
 ```
 
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
+### 4. Open Apps
+Frontend apps running in port 3002:
+```bash
+http://localhost:3002/login
 ```
 
-### Remote Caching
-
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
