@@ -10,5 +10,5 @@ exports.userSchema = joi_1.default.object({
     uid: joi_1.default.string().required(),
     displayName: joi_1.default.string().min(3).max(100).required(),
     email: joi_1.default.string().email().required(),
-    photoURL: joi_1.default.string().max(100).optional(),
+    photoURL: joi_1.default.string().max(100).allow('').optional(),
 });

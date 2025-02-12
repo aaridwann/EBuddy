@@ -5,5 +5,5 @@ export const userSchema = Joi.object({
   uid: Joi.string().required(),
   displayName: Joi.string().min(3).max(100).required(),
   email: Joi.string().email().required(),
-  photoURL: Joi.string().max(100).optional(),
+  photoURL: Joi.string().max(100).allow('').optional(),
 });
